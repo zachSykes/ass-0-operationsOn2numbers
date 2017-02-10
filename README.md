@@ -20,12 +20,13 @@ As example, at bash command line issue;<br>
 mkdir -p /c/fdu/csci3307/projects
 
 ### to import the project from github to STS
-In github, go to the repository your want to clone
-click green "Clone or download" on right hand side
+In github, go to the repository your want to clone<br>
+https://github.com/fdu-3307/example-1-operationsOn2numbers <br>
+click green "Clone or download" on right hand side<br>
 click icon with "Copy to clipboard" tooltip (NOTE when you click that later during import in STS most fields of "Source Git Repository" will be auto populated) or copy the URL
 
-In STS
-File --> Import --> Git --> Projects from Git + Next --> Clone URI + Next --> URI, Host, Repository path, Protocol of "Source Git Repsitory" will be auto filled, fill in Authentication section, click check box of "Store in Secure Store" + Next --> let "master" be selected in "Branch Selection" + Next --> in "Local Destination" type in Directory or click Browse and select workspace, let "origin" be Remote name + Next  --> in "Select a wizard to use for importing projects" click radio button of "Import using the New Project wizard" + Finish
+In STS<br>
+File --> Import --> Git --> Projects from Git + Next --> Clone URI + Next --> URI, Host, Repository path, Protocol of "Source Git Repsitory" will be auto filled, fill in Authentication section, click check box of "Store in Secure Store" + Next --> let "master" be selected in "Branch Selection" + Next --> in "Local Destination" type in Directory or click Browse and select workspace, let "origin" be Remote name + Next  --> in "Select a wizard to use for importing projects" click radio button of "Import using the New Project wizard" + Finish<br>
 in "Select a wizard" click Java --> Java Project + Next --> in "Create a Java Project" enter "Project name" value + Finish
 
 Now you should see the project in STS with yellow milk tank on its lower right corner and blue J in its upper right corner  
