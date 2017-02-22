@@ -3,6 +3,7 @@
  */
 package com.mycompany.basicmathoperations.simple;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -16,6 +17,7 @@ public class MainEntry4simple {
 	 */
 	public static void main(String[] args) {
 		System.out.println("BEF main of MainEntry4simple with args:" + args);
+		System.out.println("still main of MainEntry4simple with args:" + Arrays.toString(args));
 		
 		// get inputs
 		Scanner scanner = new Scanner(System.in);
