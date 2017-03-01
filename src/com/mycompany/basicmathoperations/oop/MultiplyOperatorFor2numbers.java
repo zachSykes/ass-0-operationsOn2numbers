@@ -8,8 +8,13 @@ package com.mycompany.basicmathoperations.oop;
  *
  */
 public class MultiplyOperatorFor2numbers extends OperatorFor2numbers implements Multiply {
+// NOTE ilker the above line is equivalent to below one
+//public class MultiplyOperatorFor2numbers extends OperatorFor2numbers implements Multiply, Has2numbers {
 
 	
+	public MultiplyOperatorFor2numbers() {
+//		super();	// NOTE ilker if you don't call parent's constructor in a child class' constructor, java will automagically call default constructor of parent
+	}
 	
 	public MultiplyOperatorFor2numbers(float _number1, float number2) {
 		super(_number1,number2);	// NOTE 1st the parent's constructor executes
