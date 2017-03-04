@@ -7,6 +7,7 @@ Example Java project created via STS as Java Project, that does some basic math 
 - create abstract base class (OperatorFor2numbers) that contain some common attribute and methods that implement an interface (Has2numbers),
 - create child class (MultiplyOperatorFor2numbers) that extend an abstract base (OperatorFor2numbers) and implement an interface (oop.Multiply)
 - polymorphism, users of implementations of an interface to view them via interface (MainEntry4oop.main)
+- using ObjectAid UML plugin to create dynamic(diagram will auto update when you change a class in it) UML diagrams (class diagram)
 
 ## Setup dependencies
 Make sure on your machine, you have;
@@ -41,6 +42,27 @@ git clone https://github.com/fdu-3307/example-1-operationsOn2numbers.git  whatev
 
 Now you can import the project into STS via
 File --> Import --> General --> Existing Projects into Workspace , then follow the wizard
+
+## How to create dynamic UML diagrams (class diagram) via ObjectAid UML
+### Install ObjectAid UML plugin to your STS via
+- Click Help --> Install New Software
+- Click Add
+- Enter
+<br> Name: ObjectAid UML Explorer
+<br> Location: http://www.objectaid.net/update
+- Click Finish and follow rest of wizard cliking Next and accepting License and Finish
+- Let STS restart for plugin to take effect
+
+### Create dynamic(meaning when a class is modified in code, it is auto reflected in diagram) class diagram
+- Create a top level directory called design, 
+    - Right click on project, click New --> Folder, call it "design"
+- Right click on above created folder "design"
+- Click New --> Other, ObjectAid UML Diagram --> Class Diagram
+- Enter something like "classDiagram_SIMPLE" for name
+- Click check box of "Save Image with Diagram as", right next to it let default pull down value of PNG be there
+- From Navigator or Page Explorer view on left hand side, drag and drop the classes interfaces you are interested in
+- Save
+- Notice "classDiagram_SIMPLE.ucls" and "classDiagram_SIMPLE.png" are created under design
 
 ## Project directory structure
 - README.md this read me file
