@@ -41,7 +41,10 @@ or<br>
 git clone https://github.com/fdu-3307/example-1-operationsOn2numbers.git  whateverDirectoryNameYouWantStuffToBeClonedInto
 
 Now you can import the project into STS via
-File --> Import --> General --> Existing Projects into Workspace , then follow the wizard
+File --> Import --> General --> Projects from Folder or Archive
+Select the directory that you cloned into, click Finish 
+
+then follow the wizard
 
 ## How to create dynamic UML diagrams (class diagram) via ObjectAid UML
 ### Install ObjectAid UML plugin to your STS via
