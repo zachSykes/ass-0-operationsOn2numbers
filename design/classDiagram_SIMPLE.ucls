@@ -6,7 +6,7 @@
     project="example-1-operationsOn2numbers" 
     file="/example-1-operationsOn2numbers/src/com/mycompany/basicmathoperations/simple/Multiply.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="413" y="89"/>    
+    <position height="-1" width="-1" x="436" y="208"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -17,7 +17,7 @@
     project="example-1-operationsOn2numbers" 
     file="/example-1-operationsOn2numbers/src/com/mycompany/basicmathoperations/simple/MainEntry4simple.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="135" y="129"/>    
+    <position height="-1" width="-1" x="303" y="74"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -28,7 +28,7 @@
     project="example-1-operationsOn2numbers" 
     file="/example-1-operationsOn2numbers/src/com/mycompany/basicmathoperations/simple/Divide.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="411" y="218"/>    
+    <position height="-1" width="-1" x="153" y="210"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
