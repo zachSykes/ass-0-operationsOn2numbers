@@ -32,9 +32,15 @@ public class MainEntry4simple {
 		// Multiply block
 		Multiply multiplier = new Multiply();
 		result = multiplier.multiply(number1, number2);
-		
 		// print out result - NOTE %d is for int, %f is for float(and double), %.2f means 2 digits after decimal like 123.45
-		System.out.printf("result is %.2f%n", result);
+		System.out.printf("multiply result is %.2f%n", result);
+		
+		// Divide block
+		Divide divide = new Divide();
+		result = divide.divide(number1, number2);
+		// print out result - NOTE %d is for int, %f is for float(and double), %.2f means 2 digits after decimal like 123.45
+		System.out.printf("divide result is %.2f%n", result);
+		
 		scanner.close();
 	}
 
