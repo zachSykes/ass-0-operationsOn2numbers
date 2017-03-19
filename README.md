@@ -1,4 +1,4 @@
-# example-1-operationsOn2numbers
+ake# example-1-operationsOn2numbers
 Example Java project created via STS as Java Project, that does some basic math operations on 2 numbers, showing how to;
 - doing without any OOP or polymorphism - simple package,
 - doing with OOP and polymorphism - oop package,
@@ -32,7 +32,7 @@ in "Select a wizard" click Java --> Java Project + Next --> in "Create a Java Pr
 
 Now you should see the project in STS with yellow milk tank on its lower right corner and blue J in its upper right corner  
 
-### or to clone the project from github via command line to a directory
+### or to clone the project from github via command line to a directory and import into STS
 cd to where you put your example projects.<br>
 As example, at bash command line issue;<br>
 cd /c/fdu/csci3307/projects <br>
@@ -44,7 +44,23 @@ Now you can import the project into STS via
 File --> Import --> General --> Projects from Folder or Archive
 Select the directory that you cloned into, click Finish 
 
-then follow the wizard
+then delete and create correct remote git repository <br>
+or update the remote git repository of the project
+
+### or to create a new Java project and copy over code from cloned github project
+- Clone the project, example-1-operationsOn2numbers, following steps described in previous section
+- Or clone&import project following above section
+- Create a new Java project in STS via<br>
+File --> New --> Java Project <br>
+Enter Project name like; ass-1-operationsOn2numbers <br>
+Click Finish
+- If you had just cloned the example project and not imported it into STS, open 2 MSExplorer (one in cloned example project's src directory, other new Java project's src directory) and copy directories from clone to new. Then in new Java Project in STS, right click on project and select "Refresh  F5"
+- If you had imported the cloned project, in "Package Explorer" view, copy over packages from imported clone into new Java project
+- Copy over any other files you need (like .gitignore, README.md, etc) from clone to new Java project
+- Make sure you can run the new Java Project
+- Make the new Java Project a git one
+- Create your remote git repository in github, and set new Java project's remote git repository to that
+- Commit and push the new Java Project
 
 ## How to create dynamic UML diagrams (class diagram) via ObjectAid UML
 ### Install ObjectAid UML plugin to your STS via
