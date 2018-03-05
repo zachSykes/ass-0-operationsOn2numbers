@@ -1,5 +1,5 @@
 # ass-0-operationsOn2numbers
-This Java Project will use example-1-operationsOn2numbers and expand on it by implementing add and subtract
+This Java Project will use example-1-operationsOn2numbers and expand on it by implementing add and subtract for both simple and oop
 
 
 # example-1-operationsOn2numbers
