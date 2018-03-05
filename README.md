@@ -1,3 +1,7 @@
+# ass-0-operationsOn2numbers
+This Java Project will use example-1-operationsOn2numbers and expand on it by implementing add and subtract
+
+
 # example-1-operationsOn2numbers
 Example Java project created via STS as Java Project, that does some basic math operations on 2 numbers, showing how to;
 - doing without any OOP or polymorphism - simple package,
